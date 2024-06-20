@@ -22,7 +22,7 @@ const productSchema = new Schema({
   category: {
     type: String,
     required: [true, "Category product wajib Diisi"],
-    enum: ["Digital", "Fisik"],
+    enum: ["Fashion", "Decoration", "Sport"],
   },
   stock: {
     type: Number,
